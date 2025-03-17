@@ -39,7 +39,7 @@ export default function Home() {
    }
 
    return (
-      <main className='w-full container max-w-screen-lg mx-auto flex justify-center items-center min-h-full p-4'>
+      <main className='w-full container max-w-screen-lg mx-auto flex justify-center items-center min-h-full p-5'>
          <Form {...form}>
             <form
                className='border h-full relative grid grid-cols-1 md:grid-cols-2'
@@ -116,7 +116,7 @@ export default function Home() {
                   </div>
                </section>
 
-               <section className='bg-white dark:bg-[#0A0A0A] border-l p-10 space-y-6'>
+               <section className='bg-white dark:bg-[#0A0A0A] border-t md:border-t-0 md:border-l  p-10 space-y-6'>
                   <ControlledInput
                      control={form.control}
                      name='name'

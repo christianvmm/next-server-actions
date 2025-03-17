@@ -6,8 +6,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
    return (
       <NextThemesProvider
          attribute='class'
+         defaultTheme='system'
          enableSystem
-         defaultTheme='dark'
+         disableTransitionOnChange
       >
          <Toaster />
 
